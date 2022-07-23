@@ -1,0 +1,31 @@
+interface IPessoa{
+    nome: string,
+    idade: number,
+    profissao: "Padeiro" | "atriz"
+}
+
+
+let pessoa1: IPessoa = {
+nome: "maria",
+idade: 29,
+profissao: "atriz"
+}
+
+let pessoa2: IPessoa = {
+    nome: "roberto",
+    idade: 19,
+    profissao: "Padeiro"
+}
+
+
+let pessoa3: IPessoa ={
+    nome: "laura",
+    idade: 32,
+    profissao: "atriz"
+}
+
+let pessoa4: IPessoa = {
+    nome: "carlos",
+    idade: 19,
+    profissao: "Padeiro"
+}
